@@ -29,11 +29,13 @@ keystone.init({
 	}).engine,
 
 	'emails': 'templates/emails',
-
+	'mongo': 'mongodb://yijieyulu:sr78513@39.106.181.20:27017/yijieyulu',
 	'auto update': true,
 	'session': true,
 	'auth': true,
 	'user model': 'Y',
+	'cloudinary config': 'cloudinary://896269871151614:xD3udFyF5PmWO8CxXIuGwHzV_S4@yijieyulu',
+    'cookie secret': 'aos98sdjfosdijojfeag',
 });
 
 // Load your project's Models
